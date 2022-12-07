@@ -6,7 +6,7 @@ function ultimateExample(number)
         for (x = 0; x < number; x++){
             let row ='';
             for(y = 0; y < number; y++){
-                row += characters[Math.floor(Math.random() * number)]
+                row += characters[Math.floor(Math.random() * characters.length)]
             }
             console.log(row);
         }
@@ -17,4 +17,4 @@ function ultimateExample(number)
 }
 
 
-ultimateExample(5);
+ultimateExample(50);
